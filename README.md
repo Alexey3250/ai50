@@ -46,7 +46,9 @@ The `main` function in `degrees.py` takes care of the user input and the output.
 The `load_data` function in `util.py` loads the data from the `large` dataset. The function returns a dictionary that maps actors to a set of movies in which they have acted. The function also returns a dictionary that maps movies to a set of actors that have acted in the movie.
 
 ## Algorithm used
-
+### Breadth-first search
+<img src="https://miro.medium.com/max/1400/1*VM84VPcCQe0gSy44l9S5yA.jpeg" alt="Breaking Down Breadth-First Search" />
+Breadth-first search is an algorithm for traversing or searching tree or graph data structures. It starts at the tree root (or some arbitrary node of a graph, sometimes referred to as a 'search key'[1]), and explores all of the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level. It uses the opposite strategy as depth-first search, which instead explores the node branch as far as possible before being forced to backtrack and expand other nodes.
 
 ## Data
 The data used in this project is based on the [IMDb](https://www.imdb.com/) dataset. The data is available in the `large` and `small` datasets. The `small` dataset contains data for 100 actors and 100 movies. The `large` dataset contains data for 1M+ actors and 344k+ movies.
