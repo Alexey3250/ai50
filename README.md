@@ -3,6 +3,8 @@ A quick overview of the first assignment of CS50 AI: implement an algorithm to f
 <img src="https://img.shields.io/badge/CS50-AI-blue" alt="CS50-AI" /> <img src="https://img.shields.io/badge/Python-3.8-blue" alt="Python 3.8" /> <img src="https://img.shields.io/badge/Status-Complete-green" alt="Status: omplete" />
 
 <img src="https://www.reliantsproject.com/wp-content/uploads/2020/06/reliants_keyconcepts-03.png" alt="Degrees of Bakon" />
+
+##### No Bacon
 In this case we will be searching for the shortest path between two actors but without Bacon in between.
 
 ## Usage
@@ -47,5 +49,5 @@ The `load_data` function in `util.py` loads the data from the `large` dataset. T
 
 
 ## Data
-The data used in this project is based on the [IMDb](https://www.imdb.com/) dataset. The data is available in the `large` and `small` datasets. The `small` dataset contains data for 100 actors and 100 movies. The `large` dataset contains data for 1,000 actors and 1,000 movies.
+The data used in this project is based on the [IMDb](https://www.imdb.com/) dataset. The data is available in the `large` and `small` datasets. The `small` dataset contains data for 100 actors and 100 movies. The `large` dataset contains data for 1M+ actors and 344k+ movies.
 
