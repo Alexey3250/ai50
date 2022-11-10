@@ -1,9 +1,22 @@
 # CS50-AI-Project0-Degrees
 A quick overview of the first assignment of CS50 AI: implement an algorithm to find the shortest path between two actors.
+<img src="https://img.shields.io/badge/CS50-AI-blue" alt="CS50-AI" /> <img src="https://img.shields.io/badge/Python-3.8-blue" alt="Python 3.8" /> <img src="https://img.shields.io/badge/Status-Complete-green" alt="Status: omplete" />
+
+<img src="https://www.reliantsproject.com/wp-content/uploads/2020/06/reliants_keyconcepts-03.png" alt="Degrees of Bakon" />
 ## Usage
 To run the program, execute the following command:
 ```bash
 python degrees.py large
+```
+```
+Name: Kevin Bacon
+Name: Tom Hanks
+```
+```
+???
+```
+```
+Result
 ```
 
 ## Assignment specification
@@ -25,6 +38,9 @@ The implementation is based on the breadth-first search algorithm. The algorithm
 The `main` function in `degrees.py` takes care of the user input and the output. The function first asks the user for the name of the source actor. The function then asks the user for the name of the target actor. The function then calls the `shortest_path` function with the source and target as arguments. If a path exists, the function prints the path. If no path exists, the function prints a message to that effect.
 
 The `load_data` function in `util.py` loads the data from the `large` dataset. The function returns a dictionary that maps actors to a set of movies in which they have acted. The function also returns a dictionary that maps movies to a set of actors that have acted in the movie.
+
+## Algorithm used
+
 
 ## Data
 The data used in this project is based on the [IMDb](https://www.imdb.com/) dataset. The data is available in the `large` and `small` datasets. The `small` dataset contains data for 100 actors and 100 movies. The `large` dataset contains data for 1,000 actors and 1,000 movies.
