@@ -3,6 +3,7 @@ A quick overview of the first assignment of CS50 AI: implement an algorithm to f
 <img src="https://img.shields.io/badge/CS50-AI-blue" alt="CS50-AI" /> <img src="https://img.shields.io/badge/Python-3.8-blue" alt="Python 3.8" /> <img src="https://img.shields.io/badge/Status-Complete-green" alt="Status: omplete" />
 
 <img src="https://www.reliantsproject.com/wp-content/uploads/2020/06/reliants_keyconcepts-03.png" alt="Degrees of Bakon" />
+image source: https://www.reliantsproject.com/wp-content/uploads/2020/06/reliants_keyconcepts-03.png
 
 ##### No Bacon
 In this case we will be searching for the shortest path between two actors but without Bacon in between.
@@ -35,7 +36,7 @@ Complete the implementation of the shortest_path function such that it returns t
 - If there are multiple paths of minimum length from the source to the target, your function can return any of them.
 - If there is no possible path between two actors, your function should return None.
 - You may call the neighbors_for_person function, which accepts a person’s id as input, and returns a set of (movie_id, person_id) pairs for all people who starred in a movie with a given person.
-- 
+
 You should not modify anything else in the file other than the shortest_path function, though you may write additional functions and/or import other Python standard library modules.
 
 ## Implementation
@@ -48,6 +49,8 @@ The `load_data` function in `util.py` loads the data from the `large` dataset. T
 ## Algorithm used
 ### Breadth-first search
 <img src="https://miro.medium.com/max/1400/1*VM84VPcCQe0gSy44l9S5yA.jpeg" alt="Breaking Down Breadth-First Search" />
+image source: [https://medium.com/basecs/breaking-down-breadth-first-search-cebe696709d9](https://medium.com/basecs/breaking-down-breadth-first-search-cebe696709d9)
+
 Breadth-first search is an algorithm for traversing or searching tree or graph data structures. It starts at the tree root (or some arbitrary node of a graph, sometimes referred to as a 'search key'[1]), and explores all of the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level. It uses the opposite strategy as depth-first search, which instead explores the node branch as far as possible before being forced to backtrack and expand other nodes.
 
 ## Data
