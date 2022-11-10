@@ -83,7 +83,6 @@ def main():
             movie = movies[path[i + 1][0]]["title"]
             print(f"{i + 1}: {person1} and {person2} starred in {movie}")
 
-#TODO: Implement only this function!
 def shortest_path(source, target):
     """
     Returns the shortest list of (movie_id, person_id) pairs
@@ -117,12 +116,18 @@ def shortest_path(source, target):
         if node.state == target:
             actions = []
             cells = []
+            
+            # Backtrack through the parents of the node until we reach the start
             while node.parent is not None:
                 actions.append(node.action)
                 cells.append(node.state)
                 node = node.parent
+                
+            # Reverse the actions and cells lists
             actions.reverse()
             cells.reverse()
+            
+            # Return the solution
             return list(zip(actions, cells))
         
         # Mark node as explored
