@@ -3,21 +3,24 @@ A quick overview of the first assignment of CS50 AI: implement an algorithm to f
 <img src="https://img.shields.io/badge/CS50-AI-blue" alt="CS50-AI" /> <img src="https://img.shields.io/badge/Python-3.8-blue" alt="Python 3.8" /> <img src="https://img.shields.io/badge/Status-Complete-green" alt="Status: omplete" />
 
 <img src="https://www.reliantsproject.com/wp-content/uploads/2020/06/reliants_keyconcepts-03.png" alt="Degrees of Bakon" />
+In this case we will be searching for the shortest path between two actors but without Bacon in between.
 ## Usage
-To run the program, execute the following command:
-```bash
-python degrees.py large
+To run the program, execute the following command, then add 2 names of actors:
 ```
+$ python degrees.py large
+
+Loading data...
+Data loaded.
+
+Name: Emma Watson
+Name: Jennifer Lawrence
+
+3 degrees of separation.
+1: Emma Watson and Brendan Gleeson starred in Harry Potter and the Order of the Phoenix
+2: Brendan Gleeson and Michael Fassbender starred in Trespass Against Us
+3: Michael Fassbender and Jennifer Lawrence starred in X-Men: First Class
 ```
-Name: Kevin Bacon
-Name: Tom Hanks
-```
-```
-???
-```
-```
-Result
-```
+
 
 ## Assignment specification
 The assignment specification can be found here: [https://cs50.harvard.edu/ai/2020/projects/0/degrees/](https://cs50.harvard.edu/ai/2020/projects/0/degrees/)
