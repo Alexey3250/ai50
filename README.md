@@ -4,6 +4,7 @@ A quick overview of the first assignment of CS50 AI: implement an algorithm to f
 
 <img src="https://www.reliantsproject.com/wp-content/uploads/2020/06/reliants_keyconcepts-03.png" alt="Degrees of Bakon" />
 In this case we will be searching for the shortest path between two actors but without Bacon in between.
+
 ## Usage
 To run the program, execute the following command, then add 2 names of actors:
 ```
